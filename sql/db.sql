@@ -27,3 +27,5 @@ CREATE TABLE IF NOT EXISTS accounts(
     currency integer REFERENCES currencys(id),
     person integer REFERENCES persons(id)
 );
+
+INSERT INTO projects(name, surname,dni, birth_date) values ('Raul', 'Larry', '72923851', '1993-09-02')
